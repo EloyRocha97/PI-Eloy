@@ -1,0 +1,145 @@
+/* .flex {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+} */
+.back {
+	position: relative;
+	align-items: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.8em 1.5em;
+	border-radius: 6em;
+	transition: all 0.2s;
+	border: none;
+	font-family: inherit;
+	font-weight: 500;
+	color: #d6ecf6;
+	background-color: #646081;
+	cursor: pointer;
+	margin-left: 100px;
+}
+
+.letra {
+	color: rgb(6, 6, 6);
+	background-color: rgba(250, 235, 215, 0.025);
+	font-size: 50px;
+	font-family: Verdana;
+	font-family: "PT Sans";
+}
+
+span.s1 {
+	position: absolute;
+	top: 30;
+	font-size: 7rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #3c4447;
+}
+
+span.s2 {
+	font-weight: 800;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 7rem;
+	text-transform: uppercase;
+	color: #3c4447;
+}
+
+.HomePage {
+	min-height: 100vh;
+	background-color: #a30404;
+}
+
+.fond {
+	padding: 0;
+	margin-top: 100px;
+	box-sizing: border-box;
+}
+
+.DisplayFilters {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 1em;
+	justify-content: space-evenly;
+}
+
+.Order select,
+.orderbyName select,
+.FinderByName input,
+.FilterBydiets select,
+.FilterByBdApi select {
+	padding: 3px;
+	font-size: 14px;
+	border-width: 1px;
+	border-color: #03bd2e;
+	background-color: #ffffff;
+	width: 85%;
+	color: #000000;
+	border-style: double;
+	border-radius: 7px;
+	box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+	margin-bottom: 1%;
+}
+
+.Finder-By-Name input:focus {
+	outline: none;
+	border: 1px solid var(--main-color);
+	box-shadow: 0 0 10px var(--main-color);
+}
+
+.columnaHP {
+	width: 50%;
+	float: left;
+	align-items: flex-end;
+	margin: 0%;
+	height: min-content;
+}
+@media (max-width: 500px) {
+	.columnaHP {
+		width: auto;
+		float: none;
+	}
+}
+
+.button-filter {
+	--b: 3px;
+	--s: 0.45em;
+	--color: #036015;
+
+	padding: calc(0.2em + var(--s)) calc(3em + var(--s));
+	color: var(--color);
+	--_p: var(--s);
+	background: conic-gradient(
+			from 90deg at var(--b) var(--b),
+			#0000 90deg,
+			var(--color) 0
+		)
+		var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+		calc(100% - var(--b) - 2 * var(--_p));
+	transition: 0.3s linear, color 0s, background-color 0s;
+	outline: var(--b) solid #0000;
+	outline-offset: 0.6em;
+
+	border: 0;
+
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.button-filter:hover,
+.button-filter:focus-visible {
+	--_p: 0px;
+	outline-color: var(--color);
+	outline-offset: 0.05em;
+}
+
+.button-filter:active {
+	background: var(--color);
+	color: #fff;
+}

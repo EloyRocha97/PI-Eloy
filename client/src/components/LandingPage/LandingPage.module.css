@@ -1,0 +1,23 @@
+.landing {
+	background-position: center;
+	background-size: cover;
+	height: 20rem;
+	padding: 5rem;
+}
+.welcom {
+	font-family: Vegur, "PT Sans", Verdana, sans-serif;
+	margin-top: 5px;
+	color: rgb(0, 0, 0);
+	position: relative;
+	margin-bottom: 10;
+	font-size: 80px;
+}
+
+.boton {
+	font-size: 50px;
+	border-radius: 50px;
+	background: linear-gradient(45deg, #d59939, #f0f0f0);
+	box-shadow: 20px -20px 60px #c3b6b6, -20px 20px 60px #f7f0f0;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

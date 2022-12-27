@@ -1,0 +1,14 @@
+body {
+	/* background: url(https://img.freepik.com/foto-gratis/fondo-madera-madera-textura-patron-wallpaper-concepto_53876-14103.jpg?w=1380&t=st=1672089754~exp=1672090354~hmac=362c70ab817db6dc6ef4187ca0c249ff472dfeb9778264161b73375d24cadd9f); */
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
